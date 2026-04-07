@@ -95,6 +95,9 @@ This demonstrates that automated architecture search:
 
 **4 systems include countermeasures, 6 systems do not.**
 
+## 📧 Contact Information
+For any questions or feedback, please contact Pritha Gupta at prithagupta.nsit@icloud.com.
+
 ### Citing autoqild
 
 If you use this toolkit in your research, please cite our paper available on arXiv:
