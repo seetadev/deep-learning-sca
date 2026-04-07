@@ -71,7 +71,7 @@ These are the relevant parameter ranges:
 |                                             | Hidden Units                    | \{2, 4, 8, 16, 32, 64, 128, 256, 512, 1024\}                                                                                                                                           |
 ## Per-Dataset Performance
 
-![Per-Dataset Performance](docs/images/performance.png)
+![Per-Dataset Performance](/images/performance.png)
 
 This figure compares vulnerability scores across multiple standard side-channel datasets under two settings:
 
