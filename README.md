@@ -106,10 +106,8 @@ This demonstrates that automated architecture search:
 
 **4 systems include countermeasures, 6 systems do not.**
 
-## 📧 Contact Information
-For any questions or feedback, please contact Pritha Gupta at prithagupta.nsit@icloud.com.
 
-### Citing deepsca
+## Citing deepsca
 
 If you use this toolkit in your research, please cite our paper published at the ARES conference. For a more comprehensive understanding, you may also refer to the detailed dissertation developed around this work.
 
@@ -150,4 +148,6 @@ If you use this toolkit in your research, please cite our paper published at the
 			  language={eng}
 			}
 ```
+## 📧 Contact Information
+For any questions or feedback, please contact Pritha Gupta at prithagupta.nsit@icloud.com.
 
