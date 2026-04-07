@@ -69,6 +69,31 @@ These are the relevant parameter ranges:
 |                                             | Pooling Poolsize 2D CNN | Convolutional Kernel Size-1                                                                                                                                                            |
 | Dense Block   | # of Blocks                      | \{1, 2, 3\}                                                                                                                                                                            |
 |                                             | Hidden Units                    | \{2, 4, 8, 16, 32, 64, 128, 256, 512, 1024\}                                                                                                                                           |
+## Per-Dataset Performance
+
+![Per-Dataset Performance](docs/images/performance.png)
+
+This figure compares vulnerability scores across multiple standard side-channel datasets under two settings:
+
+- **All parameter combinations** (left): exhaustive evaluation over the defined search space  
+- **1D CNNs with Random Search** (right): architectures automatically selected via neural architecture search  
+
+### Key Observations
+
+- **Higher vulnerability scores** indicate more successful key recovery (i.e., stronger side-channel leakage exploitation)
+- NAS-based models (right) consistently achieve **higher performance across datasets**
+- Even under **desynchronization (ASCAD desync50 / desync100)**, the models remain effective
+- Datasets with **no countermeasures** show near-perfect vulnerability (close to 100%)
+- Systems with **countermeasures** exhibit reduced but still exploitable leakage
+
+### Interpretation
+
+This demonstrates that automated architecture search:
+- Adapts effectively to different leakage characteristics  
+- Outperforms manual or exhaustive configurations  
+- Provides a scalable method for **hardware side-channel evaluation**
+
+**4 systems include countermeasures, 6 systems do not.**
 
 ### Citing autoqild
 
