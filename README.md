@@ -109,41 +109,43 @@ This demonstrates that automated architecture search:
 
 ## 💬 Cite Us
 
-If you use this toolkit in your research, please cite our paper published at the ARES conference. For a more comprehensive understanding, you may also refer to the detailed dissertation developed around this work.
+If you use this toolkit in your research, please cite our work:
 
-```
-	@inproceedings{gupta2023hwsca,
-		author       = {Pritha Gupta and Jan Peter Drees and Eyke H{\"u}llermeier},
-		title        = {Automated Side-Channel Attacks using Black-Box Neural Architecture Search},
-		year         = {2023},
-		isbn         = {9798400707728},
-		publisher    = {Association for Computing Machinery},
-		address      = {New York, NY, USA},
-		url          = {https://doi.org/10.1145/3600160.3600161},
-		doi          = {10.1145/3600160.3600161},
-		booktitle    = {Proceedings of the 18th International Conference on Availability, Reliability and Security},
-		articleno    = {5},
-		numpages     = {11},
-		location     = {Benevento, Italy},
-		series       = {ARES '23}
-	}
-	
-	@PhdThesis{Gupta2025,
-			  author={Gupta, Pritha},
-			  title={Advanced Machine Learning Methods for Information Leakage Detection in Cryptographic Systems},
-			  series={Institut f{\"u}r Informatik},
-			  year={2025},
-			  month={2025},
-			  day={05-29T18:28:39},
-			  publisher={Ver{\"o}ffentlichungen der Universit{\"a}t},
-			  address={Paderborn},
-			  pages={1 Online-Ressource (3, xi, 272 Seiten) Diagramme},
-			  note={Tag der Verteidigung: 09.05.2025},
-			  note={Universit{\"a}t Paderborn, Dissertation, 2025},
-			  url={https://nbn-resolving.org/urn:nbn:de:hbz:466:2-54956},
-			  language={eng}
-			}
-```
+- 📄 **Conference Paper (ARES 2023)**  
+- 📘 **PhD Dissertation (2025)** for a more comprehensive understanding  
+
+### BibTeX
+
+```bibtex
+@inproceedings{gupta2023hwsca,
+  author    = {Pritha Gupta and Jan Peter Drees and Eyke H{\"u}llermeier},
+  title     = {Automated Side-Channel Attacks using Black-Box Neural Architecture Search},
+  year      = {2023},
+  isbn      = {9798400707728},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3600160.3600161},
+  doi       = {10.1145/3600160.3600161},
+  booktitle = {Proceedings of the 18th International Conference on Availability, Reliability and Security},
+  articleno = {5},
+  numpages  = {11},
+  location  = {Benevento, Italy},
+  series    = {ARES '23}
+}
+
+@PhdThesis{Gupta2025,
+  author    = {Gupta, Pritha},
+  title     = {Advanced Machine Learning Methods for Information Leakage Detection in Cryptographic Systems},
+  series    = {Institut f{\"u}r Informatik},
+  year      = {2025},
+  publisher = {Ver{\"o}ffentlichungen der Universit{\"a}t},
+  address   = {Paderborn},
+  pages     = {1 Online-Ressource (3, xi, 272 Seiten) Diagramme},
+  note      = {Tag der Verteidigung: 09.05.2025},
+  note      = {Universit{\"a}t Paderborn, Dissertation, 2025},
+  url       = {https://nbn-resolving.org/urn:nbn:de:hbz:466:2-54956},
+  language  = {eng}
+}
 ## 📧 Contact Information
 For any questions or feedback, please contact Pritha Gupta at prithagupta.nsit@icloud.com.
 
