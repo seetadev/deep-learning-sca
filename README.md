@@ -71,7 +71,8 @@ These are the relevant parameter ranges:
 |                                             | Hidden Units                    | \{2, 4, 8, 16, 32, 64, 128, 256, 512, 1024\}                                                                                                                                           |
 ## Approach
 ![Approach](/images/approach.png)
-This approach uses black-box neural architecture search (NAS) to automatically identify optimal deep learning models for side-channel attacks.
+
+Our approach uses black-box neural architecture search (NAS) to automatically identify optimal deep learning models for side-channel attacks.
 
 Starting from a profiling dataset, the method splits data into training and validation sets. Different neural architectures from a predefined search space are iteratively trained and evaluated using a search strategy. Each candidate model is assessed based on its validation performance (e.g., accuracy or ranking loss).
 
