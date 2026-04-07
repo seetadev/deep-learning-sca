@@ -102,7 +102,6 @@ For any questions or feedback, please contact Pritha Gupta at prithagupta.nsit@i
 
 If you use this toolkit in your research, please cite our paper available on arXiv:
 
-```
 ### 💬 Cite Us
 If you use this toolkit in your research, please cite our paper available on Information Science Jounrla, In case of in depth knowledge requirement check out the detailed dissertation written around it.:
 ```
