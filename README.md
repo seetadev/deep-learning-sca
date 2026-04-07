@@ -107,11 +107,7 @@ This demonstrates that automated architecture search:
 **4 systems include countermeasures, 6 systems do not.**
 
 
-## Citing deepsca
-
-If you use this toolkit in your research, please cite our paper published at the ARES conference. For a more comprehensive understanding, you may also refer to the detailed dissertation developed around this work.
-
-### 💬 Cite Us
+## 💬 Cite Us
 
 If you use this toolkit in your research, please cite our paper published at the ARES conference. For a more comprehensive understanding, you may also refer to the detailed dissertation developed around this work.
 
