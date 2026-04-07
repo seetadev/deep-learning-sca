@@ -98,12 +98,14 @@ This demonstrates that automated architecture search:
 ## 📧 Contact Information
 For any questions or feedback, please contact Pritha Gupta at prithagupta.nsit@icloud.com.
 
-### Citing autoqild
+### Citing deepsca
 
-If you use this toolkit in your research, please cite our paper available Information Science Journal, In case of in depth knowledge requirement check out the detailed dissertation written around it.
+If you use this toolkit in your research, please cite our paper published at the ARES conference. For a more comprehensive understanding, you may also refer to the detailed dissertation developed around this work.
 
 ### 💬 Cite Us
-If you use this toolkit in your research, please cite our paper available on Information Science Journal, In case of in depth knowledge requirement check out the detailed dissertation written around it.
+
+If you use this toolkit in your research, please cite our paper published at the ARES conference. For a more comprehensive understanding, you may also refer to the detailed dissertation developed around this work.
+
 ```
 	@inproceedings{gupta2023hwsca,
 		author       = {Pritha Gupta and Jan Peter Drees and Eyke H{\"u}llermeier},
