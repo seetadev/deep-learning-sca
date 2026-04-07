@@ -69,6 +69,16 @@ These are the relevant parameter ranges:
 |                                             | Pooling Poolsize 2D CNN | Convolutional Kernel Size-1                                                                                                                                                            |
 | Dense Block   | # of Blocks                      | \{1, 2, 3\}                                                                                                                                                                            |
 |                                             | Hidden Units                    | \{2, 4, 8, 16, 32, 64, 128, 256, 512, 1024\}                                                                                                                                           |
+## Approach
+![Approach](/images/approach.png)
+This approach uses black-box neural architecture search (NAS) to automatically identify optimal deep learning models for side-channel attacks.
+
+Starting from a profiling dataset, the method splits data into training and validation sets. Different neural architectures from a predefined search space are iteratively trained and evaluated using a search strategy. Each candidate model is assessed based on its validation performance (e.g., accuracy or ranking loss).
+
+The best-performing architecture is then selected and retrained on the full profiling dataset to obtain the final model.
+
+Finally, the trained model is applied to the attack dataset, where performance is measured using Guessing Entropy (GE), resulting in a vulnerability score that quantifies the leakage of the target system.
+
 ## Per-Dataset Performance
 
 ![Per-Dataset Performance](/images/performance.png)
