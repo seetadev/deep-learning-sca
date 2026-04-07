@@ -83,7 +83,7 @@ This figure compares vulnerability scores across multiple standard side-channel 
 - **Higher vulnerability scores** indicate more successful key recovery (i.e., stronger side-channel leakage exploitation)
 - NAS-based models (right) consistently achieve **higher performance across datasets**
 - Even under **desynchronization (ASCAD desync50 / desync100)**, the models remain effective
-- Datasets with **no countermeasures** show near-perfect vulnerability (close to 100%)
+- Systems with **no countermeasures** show near-perfect vulnerability (close to 100%)
 - Systems with **countermeasures** exhibit reduced but still exploitable leakage
 
 ### Interpretation
