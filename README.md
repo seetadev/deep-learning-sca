@@ -78,7 +78,7 @@ Starting from a profiling dataset, the method splits data into training and vali
 
 The best-performing architecture is then selected and retrained on the full profiling dataset to obtain the final model.
 
-Finally, the trained model is applied to the attack dataset, where performance is measured using Guessing Entropy (GE), resulting in a vulnerability score that quantifies the leakage of the target system.
+Finally, the trained model is applied to the attack dataset, where performance is measured using Guessing Entropy (GE), resulting in a vulnerability score (VS) that quantifies the leakage of the target system.
 
 ## Per-Dataset Performance
 
