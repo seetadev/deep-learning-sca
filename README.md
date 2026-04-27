@@ -2,7 +2,7 @@
 
 ### The Problem No One Is Measuring
 
-Ethereum security today focuses on visible threats—smart contract exploits, phishing, and wallet hacks.
+Ethereum security today focuses on visible threats: smart contract exploits, phishing, and wallet hacks.
 
 But a silent class of vulnerabilities remains largely unaddressed:
 
